@@ -9,7 +9,7 @@ inputMsg = input("Choose a physics operation between A-E:\n").lower()
 # A function to calculate force
 def a():
     mass = float(input("What is the mass (in kg)?:\n"))
-    acceleration = float(input("What is the acceleration (in m/s2) ?:"))
+    acceleration = float(input())
     force = mass * acceleration
     print(f"The force is {force} Newtons.")
 # A function to calculate work done
@@ -18,5 +18,10 @@ def b():
     distance = float(input("What is the distance (in metres)?:\n"))
     workDone = force * distance
     print(f"The workdone is {workDone} Joules.")
-
+# A function to calculate speed
+def c():
+    distance = float(input("What is the distance (in metres)?:\n"))
+    timeTaken = float(input("What is the time taken (in seconds)?:\n"))
+    speed = distance / timeTaken
+    print(f"The speed is {speed} m/s.")
 
