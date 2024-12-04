@@ -24,4 +24,9 @@ def c():
     timeTaken = float(input("What is the time taken (in seconds)?:\n"))
     speed = distance / timeTaken
     print(f"The speed is {speed} m/s.")
-
+# A function to calculate Power
+def d():
+    workDone = float(input("What is the workdone (in Joules)?:"))
+    timeTaken = float(input("What is the time taken (in seconds)?:"))
+    power = workDone / timeTaken
+    print(f"The workdone is {power} J/s.")
