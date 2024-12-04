@@ -30,3 +30,9 @@ def d():
     timeTaken = float(input("What is the time taken (in seconds)?:"))
     power = workDone / timeTaken
     print(f"The workdone is {power} J/s.")
+# A function to calculate voltage
+def e():
+    current = float(input("What is the current used (in Amperes)?:"))
+    resistance = float(input("What is the resistance of the circuit (in Ohms)?:"))
+    voltage = current * resistance
+    print(f"The voltage provided to the entire circuit is {voltage} Volts.")
