@@ -36,3 +36,14 @@ def e():
     resistance = float(input("What is the resistance of the circuit (in Ohms)?:"))
     voltage = current * resistance
     print(f"The voltage provided to the entire circuit is {voltage} Volts.")
+# Ensures user input provided is case - insensitive
+if inputMsg == "a":
+    a()
+elif inputMsg == "b":
+    b()
+elif inputMsg == "c":
+    c()
+elif inputMsg == "d":
+    d()
+elif inputMsg == "e":
+    e()
